@@ -3,9 +3,9 @@ import { Button } from "@/components/ui/button";
 import { ArrowLeft } from "lucide-react";
 
 export const metadata = {
-  title: "Privacy Policy | BudgetFlow",
+  title: "Privacy Policy | Fintio",
   description:
-    "BudgetFlow Privacy Policy - Learn how we collect, use, and protect your data in compliance with GDPR and EU regulations.",
+    "Fintio Privacy Policy - Learn how we collect, use, and protect your data in compliance with GDPR and EU regulations.",
 };
 export const months = [
   "January",
@@ -48,7 +48,7 @@ export default function PrivacyPage() {
         <section className="mb-12">
           <h2 className="text-2xl font-semibold mb-4">Introduction</h2>
           <p className="text-muted-foreground leading-relaxed mb-4">
-            BudgetFlow, a product of Collybrix Aceleradora S.L. ("Collybrix",
+            Fintio, a product of Collybrix Aceleradora S.L. ("Collybrix",
             "we", "our", or "us"), is committed to protecting your privacy. This
             Privacy Policy explains how we collect, use, disclose, and safeguard
             your information when you use our annual budget management
@@ -56,7 +56,7 @@ export default function PrivacyPage() {
             Regulation (GDPR) and other applicable EU data protection laws.
           </p>
           <p className="text-muted-foreground leading-relaxed">
-            BudgetFlow is owned and operated by Collybrix Aceleradora S.L., a
+            Fintio is owned and operated by Collybrix Aceleradora S.L., a
             company registered in the European Union.
           </p>
         </section>
@@ -234,7 +234,7 @@ export default function PrivacyPage() {
           </ul>
           <p className="text-muted-foreground leading-relaxed mt-4">
             To exercise these rights, please contact us at
-            privacy@budgetflow.app
+            privacy@fintio.app
           </p>
         </section>
 
@@ -329,7 +329,7 @@ export default function PrivacyPage() {
           <p className="text-sm text-muted-foreground">
             These Terms of Service are effective as of {months[currentMonth]}{" "}
             {new Date().getDate()}, {new Date().getFullYear()}. By using
-            BudgetFlow, you acknowledge that you have read, understood, and
+            Fintio, you acknowledge that you have read, understood, and
             agree to be bound by these policy.
           </p>
         </div>

@@ -258,7 +258,7 @@ export default function SignUpPage() {
                     height={192}
                     loading="eager"
                   />
-                  <span className="font-semibold text-5xl">BudgetFlow</span>
+                  <span className="font-semibold text-5xl">Fintio</span>
                 </div>
               </Link>
             </div>

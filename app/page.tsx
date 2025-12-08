@@ -116,7 +116,7 @@ export default function Home() {
                   className="rounded-lg"
                 />
               </div>
-              <span className="font-semibold text-lg">BudgetFlow</span>
+              <span className="font-semibold text-lg">Fintio</span>
             </div>
           </AnimatedElement>
           <AnimatedElement variant="slideLeft" delay={100}>
@@ -311,7 +311,7 @@ export default function Home() {
             <AnimatedElement>
               <div className="space-y-6">
                 <h2 className="text-4xl font-bold tracking-tight">
-                  Why Choose BudgetFlow?
+                  Why Choose Fintio?
                 </h2>
                 <div className="space-y-4">
                   {[
@@ -412,7 +412,7 @@ export default function Home() {
                 Your Data, Protected
               </h2>
               <p className="text-muted-foreground text-lg">
-                We take security and compliance seriously. BudgetFlow meets all
+                We take security and compliance seriously. Fintio meets all
                 EU regulations and international standards.
               </p>
             </div>
@@ -512,7 +512,7 @@ export default function Home() {
             <div>
               <div className="flex items-center gap-2 mb-4">
                 <TrendingUp className="w-5 h-5 text-primary" />
-                <span className="font-semibold">BudgetFlow</span>
+                <span className="font-semibold">Fintio</span>
               </div>
               <p className="text-sm text-muted-foreground">
                 Smart budgeting for everyone

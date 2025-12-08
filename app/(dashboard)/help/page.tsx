@@ -28,9 +28,9 @@ import {
 import Link from "next/link";
 
 export const metadata = {
-  title: "Help & Instructions | BudgetFlow",
+  title: "Help & Instructions | Fintio",
   description:
-    "Learn how to use BudgetFlow to manage your annual budget effectively",
+    "Learn how to use Fintio to manage your annual budget effectively",
 };
 
 export default function HelpPage() {
@@ -195,14 +195,14 @@ export default function HelpPage() {
 
   const faqs = [
     {
-      question: "How do I get started with BudgetFlow?",
+      question: "How do I get started with Fintio?",
       answer:
         "Start by visiting the Setup page to configure your budget. Add your income and expense categories, set projected amounts, and choose your preferences. Then navigate to the Dashboard to begin tracking your finances.",
     },
     {
       question: "What is the 50/30/20 rule?",
       answer:
-        "The 50/30/20 rule is a budgeting method where you allocate 50% of your income to needs (essentials), 30% to wants (lifestyle), and 20% to savings (financial goals). BudgetFlow automatically tracks your spending against these categories.",
+        "The 50/30/20 rule is a budgeting method where you allocate 50% of your income to needs (essentials), 30% to wants (lifestyle), and 20% to savings (financial goals). Fintio automatically tracks your spending against these categories.",
     },
     {
       question: "How do recurring transactions work?",
@@ -267,7 +267,7 @@ export default function HelpPage() {
           </h1>
         </div>
         <p className="text-muted-foreground">
-          Learn how to use BudgetFlow to take control of your annual budget
+          Learn how to use Fintio to take control of your annual budget
         </p>
       </div>
 
@@ -463,7 +463,7 @@ export default function HelpPage() {
             </strong>
           </p>
           <p className="pt-2">
-            BudgetFlow is a product of Collybrix Aceleradora S.L., committed to
+            Fintio is a product of Collybrix Aceleradora S.L., committed to
             helping you achieve financial wellness.
           </p>
         </CardContent>

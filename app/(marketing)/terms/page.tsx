@@ -18,9 +18,9 @@ export const months = [
 ];
 
 export const metadata = {
-  title: "Terms of Service | BudgetFlow",
+  title: "Terms of Service | Fintio",
   description:
-    "BudgetFlow Terms of Service - Read our terms and conditions for using the annual budget management platform.",
+    "Fintio Terms of Service - Read our terms and conditions for using the annual budget management platform.",
 };
 
 export default function TermsPage() {
@@ -51,14 +51,14 @@ export default function TermsPage() {
         <section className="mb-12">
           <h2 className="text-2xl font-semibold mb-4">Agreement to Terms</h2>
           <p className="text-muted-foreground leading-relaxed mb-4">
-            By accessing or using BudgetFlow ("Service", "Platform"), a product
+            By accessing or using Fintio ("Service", "Platform"), a product
             of Collybrix Aceleradora S.L. ("Collybrix", "we", "us", or "our"),
             you agree to be bound by these Terms of Service ("Terms"). If you
             disagree with any part of these terms, you do not have permission to
             access the Service.
           </p>
           <p className="text-muted-foreground leading-relaxed">
-            BudgetFlow is owned and operated by Collybrix Aceleradora S.L., a
+            Fintio is owned and operated by Collybrix Aceleradora S.L., a
             company registered in the European Union.
           </p>
         </section>
@@ -161,7 +161,7 @@ export default function TermsPage() {
             The Service, including its original content, features, and
             functionality, is owned by Collybrix Aceleradora S.L. and is
             protected by international copyright, trademark, patent, trade
-            secret, and other intellectual property laws. BudgetFlow and all
+            secret, and other intellectual property laws. Fintio and all
             related trademarks and trade dress may not be used without prior
             written consent from Collybrix Aceleradora S.L.
           </p>
@@ -285,7 +285,7 @@ export default function TermsPage() {
         <section className="mb-12">
           <h2 className="text-2xl font-semibold mb-4">Indemnification</h2>
           <p className="text-muted-foreground leading-relaxed">
-            You agree to indemnify, defend, and hold harmless BudgetFlow and its
+            You agree to indemnify, defend, and hold harmless Fintio and its
             officers, directors, employees, and agents from any claims,
             liabilities, damages, losses, and expenses, including reasonable
             legal fees, arising out of or related to:
@@ -305,7 +305,7 @@ export default function TermsPage() {
             the laws of the European Union and applicable member state laws,
             without regard to conflict of law principles. Any disputes arising
             from these Terms or the Service shall be subject to the exclusive
-            jurisdiction of the courts in the EU member state where BudgetFlow
+            jurisdiction of the courts in the EU member state where Fintio
             is registered.
           </p>
         </section>
@@ -353,7 +353,7 @@ export default function TermsPage() {
           <p className="text-muted-foreground leading-relaxed">
             These Terms, together with our Privacy Policy and any other legal
             notices published by us on the Service, constitute the entire
-            agreement between you and BudgetFlow concerning the Service.
+            agreement between you and Fintio concerning the Service.
           </p>
         </section>
 
@@ -386,7 +386,7 @@ export default function TermsPage() {
           <p className="text-sm text-muted-foreground">
             These Terms of Service are effective as of {months[currentMonth]}{" "}
             {new Date().getDate()}, {new Date().getFullYear()}. By using
-            BudgetFlow, you acknowledge that you have read, understood, and
+            Fintio, you acknowledge that you have read, understood, and
             agree to be bound by these Terms.
           </p>
         </div>
