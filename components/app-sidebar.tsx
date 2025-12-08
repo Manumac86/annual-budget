@@ -130,11 +130,17 @@ export function AppSidebar() {
     <Sidebar>
       <SidebarHeader>
         <div className="flex items-center gap-2 px-2 py-2">
-          <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary text-primary-foreground">
-            <Image src="/logo_bflow.png" alt="Fintio logo" />
+          <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary text-primary-foreground">
+            <Image
+              src="/logo_bflow.png"
+              alt="Fintio logo"
+              width={192}
+              height={192}
+              className="rounded-lg"
+            />
           </div>
           <div className="flex flex-col">
-            <span className="text-sm font-semibold">Fintio</span>
+            <span className="text-xl font-semibold font-serif">Fintio</span>
             <span className="text-xs text-muted-foreground">
               Finance Management
             </span>
