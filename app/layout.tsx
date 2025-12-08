@@ -20,7 +20,7 @@ const sourceSerif = Source_Serif_4({
 });
 
 export const metadata: Metadata = {
-  title: "Annual Budget - Personal Finance Management",
+  title: "Fintio - Personal Finance Management",
   description:
     "Manage your annual budget with ease. Track income, expenses, and savings goals.",
 };

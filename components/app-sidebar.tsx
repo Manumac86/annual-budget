@@ -1,6 +1,6 @@
 "use client";
 
-import * as React from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import {
@@ -131,10 +131,10 @@ export function AppSidebar() {
       <SidebarHeader>
         <div className="flex items-center gap-2 px-2 py-2">
           <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary text-primary-foreground">
-            <span className="text-lg font-bold">AB</span>
+            <Image src="/logo_bflow.png" alt="Fintio logo" />
           </div>
           <div className="flex flex-col">
-            <span className="text-sm font-semibold">Annual Budget</span>
+            <span className="text-sm font-semibold">Fintio</span>
             <span className="text-xs text-muted-foreground">
               Finance Management
             </span>
@@ -212,7 +212,11 @@ export function AppSidebar() {
       <SidebarFooter>
         <SidebarMenu>
           <SidebarMenuItem>
-            <SidebarMenuButton asChild tooltip="Help & Instructions" isActive={pathname === "/help"}>
+            <SidebarMenuButton
+              asChild
+              tooltip="Help & Instructions"
+              isActive={pathname === "/help"}
+            >
               <Link href="/help">
                 <HelpCircle />
                 <span>Help</span>
