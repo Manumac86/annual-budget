@@ -13,6 +13,10 @@
 # testing
 /coverage
 
+# docs
+/docs-bkp
+/instructions_sheet_content.json
+
 # next.js
 /.next/
 /out/

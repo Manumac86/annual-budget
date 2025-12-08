@@ -9,6 +9,7 @@ import { setupFormSchema, type SetupFormInput } from "@/lib/validations";
 import { getAllCountries, getCurrencyByCountry } from "@/utils/currency";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Checkbox } from "@/components/ui/checkbox";
 import {
   Form,
   FormControl,
@@ -225,6 +226,9 @@ export default function SetupPage() {
                         ))}
                       </SelectContent>
                     </Select>
+                    <FormDescription>
+                      This will update the currency symbol throughout the app
+                    </FormDescription>
                     <FormMessage />
                   </FormItem>
                 )}
@@ -331,6 +335,29 @@ export default function SetupPage() {
                   </FormItem>
                 )}
               />
+
+              <FormField
+                control={form.control}
+                name="rolloverEnabled"
+                render={({ field }) => (
+                  <FormItem className="flex flex-row items-start space-x-3 space-y-0 rounded-md border p-4">
+                    <FormControl>
+                      <Checkbox
+                        checked={field.value}
+                        onCheckedChange={field.onChange}
+                      />
+                    </FormControl>
+                    <div className="space-y-1 leading-none">
+                      <FormLabel>
+                        Enable Rollover
+                      </FormLabel>
+                      <FormDescription>
+                        Carry over your balance from one month to the next. If enabled, any surplus or deficit from the previous month will be added to the current month's starting balance.
+                      </FormDescription>
+                    </div>
+                  </FormItem>
+                )}
+              />
             </CardContent>
           </Card>
 
@@ -408,7 +435,7 @@ export default function SetupPage() {
             <CardHeader>
               <CardTitle>Expense Categories</CardTitle>
               <CardDescription>
-                Add your expense categories following the 50/30/20 rule
+                Add your expense categories, set projected amounts, and classify them using the 50/30/20 rule (Needs, Wants, or Savings). This classification is optional and helps with the 50/30/20 Budget Dashboard.
               </CardDescription>
             </CardHeader>
             <CardContent className="space-y-4">

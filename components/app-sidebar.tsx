@@ -15,8 +15,10 @@ import {
   PiggyBank,
   CreditCard,
   Wallet,
+  HelpCircle,
   type LucideIcon,
 } from "lucide-react";
+import { UserButton } from "@clerk/nextjs";
 
 import {
   Sidebar,
@@ -25,6 +27,7 @@ import {
   SidebarGroupContent,
   SidebarGroupLabel,
   SidebarHeader,
+  SidebarFooter,
   SidebarMenu,
   SidebarMenuButton,
   SidebarMenuItem,
@@ -206,6 +209,36 @@ export function AppSidebar() {
           </SidebarGroupContent>
         </SidebarGroup>
       </SidebarContent>
+      <SidebarFooter>
+        <SidebarMenu>
+          <SidebarMenuItem>
+            <SidebarMenuButton asChild tooltip="Help & Instructions" isActive={pathname === "/help"}>
+              <Link href="/help">
+                <HelpCircle />
+                <span>Help</span>
+              </Link>
+            </SidebarMenuButton>
+          </SidebarMenuItem>
+          <SidebarMenuItem>
+            <div className="flex items-center gap-2 px-2 py-2">
+              <UserButton
+                appearance={{
+                  elements: {
+                    avatarBox: "h-8 w-8",
+                    userButtonTrigger: "focus:shadow-none",
+                  },
+                }}
+              />
+              <div className="flex flex-1 flex-col text-left text-sm leading-tight">
+                <span className="truncate font-semibold">Account</span>
+                <span className="truncate text-xs text-muted-foreground">
+                  Manage your account
+                </span>
+              </div>
+            </div>
+          </SidebarMenuItem>
+        </SidebarMenu>
+      </SidebarFooter>
     </Sidebar>
   );
 }
